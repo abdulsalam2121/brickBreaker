@@ -10,6 +10,14 @@ A classic Brick Breaker game developed in Java using Object-Oriented Programming
 - **Game States**: Win condition when all bricks are destroyed, lose when ball falls below paddle
 - **Restart Functionality**: Press Enter to restart the game
 
+## 📸 Screenshots
+
+![Main Gameplay](screenshots/main.JPG)
+
+![Game Start](screenshots/game_start.JPG)
+
+![Game End](screenshots/game_end.JPG)
+
 ## 🎯 Controls
 
 - **Left Arrow**: Move paddle left
@@ -18,7 +26,7 @@ A classic Brick Breaker game developed in Java using Object-Oriented Programming
 
 ## 🏗️ Project Structure
 
-```
+```text
 src/brickBracker/
 ├── Main.java          # Entry point - creates game window
 ├── Gameplay.java      # Main game logic and rendering
@@ -35,14 +43,20 @@ src/brickBracker/
 ## 🚀 How to Run
 
 1. Compile the Java files:
+
+
    ```bash
    javac src/brickBracker/*.java
    ```
 
+
 2. Run the game:
+
+
    ```bash
    java -cp src brickBracker.Main
    ```
+
 
 ## 📋 Requirements
 
